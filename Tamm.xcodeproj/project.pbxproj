@@ -16,6 +16,11 @@
 		1818843B22D417A300A91DA2 /* TammUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818843A22D417A300A91DA2 /* TammUITests.swift */; };
 		1818844B22D41A6700A91DA2 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1818844922D41A6600A91DA2 /* OpenSans-Semibold.ttf */; };
 		1818844C22D41A6700A91DA2 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1818844A22D41A6600A91DA2 /* OpenSans-Bold.ttf */; };
+		F717D46422D6069F008EB11B /* chooseLangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F717D46322D6069F008EB11B /* chooseLangViewController.swift */; };
+		F717D46622D60730008EB11B /* termsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F717D46522D60730008EB11B /* termsAndConditionsViewController.swift */; };
+		F76D9E3522D62FEC00B19161 /* signOrResgisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D9E3422D62FEC00B19161 /* signOrResgisterViewController.swift */; };
+		F76D9E3722D62FFB00B19161 /* signinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D9E3622D62FFB00B19161 /* signinViewController.swift */; };
+		F76D9E3922D63D7000B19161 /* chhosingPlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D9E3822D63D7000B19161 /* chhosingPlansViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		1818843C22D417A300A91DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1818844922D41A6600A91DA2 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		1818844A22D41A6600A91DA2 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		F717D46322D6069F008EB11B /* chooseLangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseLangViewController.swift; sourceTree = "<group>"; };
+		F717D46522D60730008EB11B /* termsAndConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = termsAndConditionsViewController.swift; sourceTree = "<group>"; };
+		F76D9E3422D62FEC00B19161 /* signOrResgisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signOrResgisterViewController.swift; sourceTree = "<group>"; };
+		F76D9E3622D62FFB00B19161 /* signinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinViewController.swift; sourceTree = "<group>"; };
+		F76D9E3822D63D7000B19161 /* chhosingPlansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chhosingPlansViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,7 @@
 		1818841922D4179F00A91DA2 /* Tamm */ = {
 			isa = PBXGroup;
 			children = (
+				F76D9E3322D62FB500B19161 /* Controllers */,
 				1818844822D41A5700A91DA2 /* Fonts */,
 				1818841A22D4179F00A91DA2 /* AppDelegate.swift */,
 				1818841C22D4179F00A91DA2 /* ViewController.swift */,
@@ -137,6 +148,18 @@
 				1818844922D41A6600A91DA2 /* OpenSans-Semibold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F76D9E3322D62FB500B19161 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F717D46322D6069F008EB11B /* chooseLangViewController.swift */,
+				F717D46522D60730008EB11B /* termsAndConditionsViewController.swift */,
+				F76D9E3422D62FEC00B19161 /* signOrResgisterViewController.swift */,
+				F76D9E3622D62FFB00B19161 /* signinViewController.swift */,
+				F76D9E3822D63D7000B19161 /* chhosingPlansViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76D9E3722D62FFB00B19161 /* signinViewController.swift in Sources */,
+				F717D46622D60730008EB11B /* termsAndConditionsViewController.swift in Sources */,
+				F717D46422D6069F008EB11B /* chooseLangViewController.swift in Sources */,
+				F76D9E3522D62FEC00B19161 /* signOrResgisterViewController.swift in Sources */,
 				1818841D22D4179F00A91DA2 /* ViewController.swift in Sources */,
+				F76D9E3922D63D7000B19161 /* chhosingPlansViewController.swift in Sources */,
 				1818841B22D4179F00A91DA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
